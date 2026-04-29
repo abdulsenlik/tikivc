@@ -364,6 +364,16 @@ button.secondary:disabled {
 }
 .actions button { flex: 1; min-width: 140px; }
 
+.contact {
+  font-size: 11px;
+  color: var(--ink-4);
+  text-align: center;
+  padding: 8px 0 0;
+  letter-spacing: 0.02em;
+}
+.contact a { color: var(--ink-3); border-bottom: 1px dashed var(--line-2); }
+.contact a:hover { color: var(--mint); border-bottom-color: var(--mint); }
+
 /* ---- RIGHT COLUMN — preview ---- */
 .right-col {
   display: flex;

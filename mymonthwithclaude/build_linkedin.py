@@ -116,7 +116,9 @@ OUT_PATH     = "/output.png"
 DPI = 200
 SQ  = 5.4
 
-plt.rcParams.update({
+# 'text.parse_math' was added in matplotlib 3.4; Pyodide ships an older build,
+# so we set it conditionally instead of in the rcParams.update() bulk call.
+_rc = {
     'font.family': INTER,
     'figure.facecolor': BG,
     'axes.facecolor': BG,
@@ -124,8 +126,10 @@ plt.rcParams.update({
     'axes.linewidth': 0,
     'xtick.major.width': 0,
     'ytick.major.width': 0,
-    'text.parse_math': False,
-})
+}
+if 'text.parse_math' in plt.rcParams:
+    _rc['text.parse_math'] = False
+plt.rcParams.update(_rc)
 
 with open(STATS_PATH) as f:
     d = json.load(f)

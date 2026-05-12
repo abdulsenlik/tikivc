@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1778526384709,
+  "projectRoot": "/Users/senlik/snlk/projects/tikivc",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "milken": {
+      "path": "milken",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1778526384685,
+      "keyFiles": [
+        "generic.html",
+        "index.html"
+      ]
+    },
+    "mymonthwithclaude": {
+      "path": "mymonthwithclaude",
+      "purpose": null,
+      "fileCount": 8,
+      "lastAccessed": 1778526384685,
+      "keyFiles": [
+        "README.md",
+        "aggregate.js",
+        "build_linkedin.py",
+        "config.js",
+        "index.html"
+      ]
+    },
+    "mymonthwithclaude/assets": {
+      "path": "mymonthwithclaude/assets",
+      "purpose": "Static assets",
+      "fileCount": 2,
+      "lastAccessed": 1778526384686,
+      "keyFiles": [
+        "Claude_AI_logo.svg.png",
+        "atas-logo.png"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "mymonthwithclaude/aggregate.js",
+      "accessCount": 2,
+      "lastAccessed": 1778526815462,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
